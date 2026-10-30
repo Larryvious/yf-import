@@ -4,7 +4,7 @@ compatibility_date = "2026-01-20"
 
 # Cache configuration: time in seconds
 [vars]
-CACHE_TTL = "3600" # 1 hour
+CACHE_TTL = "300" # in seconds (default from original repo: 3600/1 hour)
 ROOT_REDIRECT_URL = "https://gionn.net/2026/google-sheets-yahoo-finance-fix/"
 # Comma-separated list of exact origins allowed to read API responses
 # cross-origin (CORS), e.g. "https://app.example.com,https://sheets.example.org".
